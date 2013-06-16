@@ -1,6 +1,6 @@
 これは物事を決めるのを円滑にするツールです。
 
-LabRouletteは@whitech0c0さんがRubyを使っ書かれたものをPythonで書き直したものです。
+LabRoulettePythonは@whitech0c0さんがRubyを使って書いたLabRouletteをPythonで書き直したものです。
 
 ほぼはじめてのPythonでのプログラミングでしたので、わからないこともありましたが、無事作ることができました。
 
@@ -8,3 +8,6 @@ LabRouletteは@whitech0c0さんがRubyを使っ書かれたものをPythonで書
 
 動作確認はPython3.3で行なっています。また、Macで使用することを前提としていますので、Mac以外の方はご利用になれません。
 御許して下さい。
+
+使用例：
+$python roulette.py たなか さとう たかはし よしだ
