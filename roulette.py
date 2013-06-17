@@ -4,7 +4,6 @@ import sys
 import random
 import time
 #import pygame
-#import commands
 
 def say(name,score):
     system('say ' + str(name) + str(score) + 'てんです')
@@ -29,8 +28,9 @@ def main():
         print(str(i['name']) + 'さん:' + str(i['score']) + '点です。')
         say(i['name'],i['score'])
         time.sleep(0.3)
-        if i['score'] < min['score']:
+        if min['score'] > i['score']:
             min['name'] = i['name']
+            min['score'] = i['score']
     
     system("afplay gaki.mp3")
     print(str(min['name']) + 'あうとーーーーーー')
