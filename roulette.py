@@ -1,3 +1,4 @@
+#!/Users/otukutun/dev/python/default33/bin/python
 # -*- coding: utf-8 -*-
 from os import system
 import sys
@@ -6,7 +7,7 @@ import time
 #import pygame
 
 def say(name,score):
-    system('say ' + str(name) + str(score) + 'てんです')
+    system('say ' + str(name) + 'ーーーー' +  str(score) + 'てんです')
     #commands.getoutput('say ' + str(name) + str(score) + 'てんです')
 
 def output_score():
@@ -34,7 +35,7 @@ def main():
     
     system("afplay gaki.mp3")
     print(str(min['name']) + 'あうとーーーーーー')
-    system('say ' + str(min['name']) + 'あうとーーーーーー')
+    system('say ' + str(min['name']) + 'ーーーーアウトーーーーーー')
 
 if __name__ == '__main__':
     main()
