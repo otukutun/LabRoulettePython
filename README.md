@@ -10,4 +10,9 @@ LabRoulettePythonは@whitech0c0さんがRubyを使って書いたLabRouletteをP
 御許して下さい。
 
 使用例：
+```
+#複数人から一人を選ぶ場合
 $python roulette.py たなか さとう たかはし よしだ
+#複数人の順番を決めたい場合
+$python order.py たなか さとう たかはし よしだ
+```
