@@ -6,7 +6,7 @@ import random
 import time
 
 def say(name,num):
-    system('say ' + str(name) + 'は' +  str(num) + 'ばんです')
+    system('say ' + str(name) + 'わ' +  str(num) + 'ばんです')
 
 def main():
     argvs = sys.argv #引数を格納したリスト
